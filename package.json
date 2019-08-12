@@ -1,7 +1,7 @@
 {
   "name": "next-classify",
   "version": "1.0.0",
-  "description": "Converts string to camelized class name First letter is always upper case",
+  "description": "Converts string to camelized class name First letter is always upper case.",
   "homepage": "https://github.com/afeiship/next-classify",
   "author": {
     "name": "afei",

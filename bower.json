@@ -1,19 +1,13 @@
 {
   "name": "next-classify",
-  "version": "0.0.1",
-  "description": "Converts string to camelized class name First letter is always upper case",
+  "version": "1.0.0",
+  "description": "Converts string to camelized class name First letter is always upper case.",
   "main": "dist/next-classify.js",
-  "authors": [
-    "afei"
-  ],
+  "authors": ["afei"],
   "license": "MIT",
-  "keywords": [
-    "next"
-  ],
+  "keywords": ["next"],
   "homepage": "https://github.com/afeiship/next-classify",
-  "moduleType": [
-    "amd"
-  ],
+  "moduleType": ["amd"],
   "ignore": [
     "**/.*",
     "node_modules",
