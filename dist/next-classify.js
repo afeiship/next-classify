@@ -1,14 +1,14 @@
 /*!
- * name: next-classify
+ * name: @feizheng/next-classify
  * url: https://github.com/afeiship/next-classify
  * version: 1.0.0
- * date: 2019-08-12T09:25:56.603Z
+ * date: 2019-11-23T13:42:51.392Z
  * license: MIT
  */
 
 (function() {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
   var EMPTY_STR = '';
   var UNDERLINE = '_';
   var camelCaseRE = /[-_.]+(.)?/g;

@@ -1,5 +1,5 @@
 {
-  "name": "next-classify",
+  "name": "@feizheng/next-classify",
   "version": "1.0.0",
   "description": "Converts string to camelized class name First letter is always upper case.",
   "main": "dist/next-classify.js",
