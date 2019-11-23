@@ -2,7 +2,7 @@
  * name: @feizheng/next-classify
  * url: https://github.com/afeiship/next-classify
  * version: 1.0.0
- * date: 2019-11-23T13:42:51.392Z
+ * date: 2019-11-23T13:45:45.866Z
  * license: MIT
  */
 
