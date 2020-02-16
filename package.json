@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/next-classify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts string to camelized class name First letter is always upper case.",
   "homepage": "https://github.com/afeiship/next-classify",
   "author": {
@@ -15,7 +15,7 @@
   "main": "dist/next-classify.js",
   "license": "MIT",
   "devDependencies": {
-    "@feizheng/next-nice-comments": "^1.0.0",
+    "@feizheng/next-nice-comments": "^1.0.1",
     "@feizheng/rake-git": "^1.2.1",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
@@ -34,6 +34,6 @@
     "yargs": "^15.1.0"
   },
   "dependencies": {
-    "@feizheng/next-js-core2": "^2.4.0"
+    "@feizheng/next-js-core2": "^2.4.1"
   }
 }
