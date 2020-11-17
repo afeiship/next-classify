@@ -1,21 +1,22 @@
 /*!
- * name: @feizheng/next-classify
- * url: https://github.com/afeiship/next-classify
+ * name: @jswork/next-classify
+ * description: Converts string to camelized class name. First letter is always upper case.
+ * homepage: https://github.com/afeiship/next-classify
  * version: 1.0.0
- * date: 2019-11-23T13:45:45.866Z
+ * date: 2020-11-17T08:36:35.657Z
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var EMPTY_STR = '';
   var UNDERLINE = '_';
   var camelCaseRE = /[-_.]+(.)?/g;
 
-  nx.classify = function(inStr) {
+  nx.classify = function (inStr) {
     var str = UNDERLINE + inStr || EMPTY_STR;
-    return str.replace(camelCaseRE, function(match, chr) {
+    return str.replace(camelCaseRE, function (_, chr) {
       return chr ? chr.toUpperCase() : EMPTY_STR;
     });
   };
@@ -24,5 +25,3 @@
     module.exports = nx.classify;
   }
 })();
-
-//# sourceMappingURL=next-classify.js.map
