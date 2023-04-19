@@ -1,18 +1,18 @@
-(function () {
-  var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@jswork/next');
-  var EMPTY_STR = '';
-  var UNDERLINE = '_';
-  var camelCaseRE = /[-_.]+(.)?/g;
+import nx from '@jswork/next';
 
-  nx.classify = function (inStr) {
-    var str = UNDERLINE + inStr || EMPTY_STR;
-    return str.replace(camelCaseRE, function (_, chr) {
-      return chr ? chr.toUpperCase() : EMPTY_STR;
-    });
-  };
+const EMPTY_STR = '';
+const UNDERLINE = '_';
+const camelCaseRE = /[-_.]+(.)?/g;
 
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.classify;
-  }
-})();
+nx.classify = function (inStr) {
+  const str = UNDERLINE + inStr || EMPTY_STR;
+  return str.replace(camelCaseRE, function (_, chr) {
+    return chr ? chr.toUpperCase() : EMPTY_STR;
+  });
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = nx.classify;
+}
+
+export default nx.classify;
