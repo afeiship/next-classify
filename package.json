@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-classify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts string to camelized class name. First letter is always upper case.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,10 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "string",
+    "classify",
+    "pascal-case"
+  ]
 }
