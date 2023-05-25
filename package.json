@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-classify",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Converts string to camelized class name. First letter is always upper case.",
   "homepage": "https://js.work",
   "author": {
