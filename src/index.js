@@ -11,8 +11,8 @@ nx.classify = function (inStr) {
   });
 };
 
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = nx.classify;
-}
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.classify;
+// }
 
 export default nx.classify;
